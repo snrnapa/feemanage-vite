@@ -1,10 +1,11 @@
-import { useState } from 'react';
 import './App.css';
+import Users from './components/Users';
 
 function App() {
   return (
     <>
-      <p className="text-9xl">hello vite tailwindcss</p>
+      <p className="text-2xl">feemanage golang x react</p>
+      <Users />
     </>
   );
 }
